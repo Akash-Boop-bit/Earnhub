@@ -1,0 +1,63 @@
+.main{
+    background-image: url("images/contact_us_3.jpg");
+    height: 120vh;
+    background-size: contain;
+}
+
+.helpcenter {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.helpcenter p{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.img1{
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+.img2 {
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .main {
+        background-image: url("images/contactus7.jpg");
+        height: 70vh;
+        background-size: cover;
+    }
+    .helpcenter {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:self-start;
+    }
+    .helpcenter p{
+        margin-left: 0.4rem;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .helpcenter a {
+        color: white;
+    }
+    .img1{
+        height: 2rem;
+        margin-right: 1rem;
+    }
+    .img2 {
+        height: 2rem;
+        margin-right: 1rem;
+    }
+    
+}
